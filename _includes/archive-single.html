@@ -42,7 +42,17 @@
           <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif post.collection == 'publications' %}
         <div style="display: flex; justify-content: space-between;">
-          <p><i>{{ post.author }}</i></p>
+          <p style="margin-bottom: 5px;"><i>
+            {% assign authors = post.author | split: ", " %}
+            {% for author in authors %}
+              {% if author == "Yuxuan Li" %}
+                <strong style="text-decoration: underline;">{{ author }}</strong>
+              {% else %}
+                {{ author }}
+              {% endif %}
+              {% unless forloop.last %}, {% endunless %}
+            {% endfor %}
+          </i></p>
           <p>In submission to <i>{{ post.venue }}</i></p>
         </div>
         {% elsif post.date %}
