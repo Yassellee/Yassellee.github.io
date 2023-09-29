@@ -9,5 +9,5 @@ redirect_from:
 
 ---
 
-Hi! I am Yuxuan Li, a senior undergraduate student major in Computer Science and Technology at Tsinghua University. Here are my [CV](https://yassellee.github.io/CV_YuxuanLi.pdf) and [Publications](https://yassellee.github.io/publications/).
+Hi! I am Yuxuan Li, a senior undergraduate student majoring in Computer Science and Technology at Tsinghua University. Here are my [CV](https://yassellee.github.io/CV_YuxuanLi.pdf) and [Publications](https://yassellee.github.io/publications/).
 
