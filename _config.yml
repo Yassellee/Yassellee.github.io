@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Yuxuan Li"
 title_separator          : "-"
 name                     : &name "Yuxuan Li"
-description              : &description "Understand humans and technology, and let them augment each other."
+description              : &description "Understand humans and technology, and let them augment one another."
 url                      : https://Yassellee.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "Yassellee/Yassellee.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Yuxuan Li"
   avatar           : "profile.png"
-  bio              : "Understand humans and technology, and let them augment each other."
+  bio              : "Understand humans and technology, and let them augment one another."
   location         : "Beijing, China"
   employer         :
   email            :
